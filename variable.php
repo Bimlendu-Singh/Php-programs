@@ -9,6 +9,8 @@
 <body>
 <?php
 
+//php program start
+
 $google = "Study";
 
 
