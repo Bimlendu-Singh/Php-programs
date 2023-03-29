@@ -10,8 +10,26 @@
     
  <?php
 
+  //Program checking array , various types of arrays
+
   $checking = "It's working!";
-  echo "$checking";
+  echo "$checking <br>";
+
+  //Numeric array
+
+  $salary = array(220,300,400,500,800);
+
+  foreach($salary as $va)
+   {
+        echo "value is : $va <br>";
+   }
+
+   $salari = array("bheem"=> 10000, "vijay"=> 4000, "srawan"=> 2000);
+
+   foreach($salari as  $x=>$values)
+   {
+       echo "salari of : $x=>$values <br>";
+   }
 
  ?>
 
